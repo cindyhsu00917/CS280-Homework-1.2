@@ -11,6 +11,8 @@ namespace CS280_Homework_1._2
         private static void Main(string[] args)
         {
             Pokemon pokemon = new Pokemon();
+            pokemon.Number = 004;
+            pokemon.Name = "Charmander";
             pokemon.Height = 2.0f;
             pokemon.Weight = 12.7f;
             pokemon.Category = "Lizard";
